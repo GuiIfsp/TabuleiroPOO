@@ -1,12 +1,12 @@
 package javaapplication1;
 
-public class JavaApplication1 {
+public class ProjetoPOO {
     public static void main(String[] args) {
         Borda bordaCheia = new Borda(true, true);
         Borda borda10 = new Borda(true, false);
         Borda borda01 = new Borda(false, true);
              
-        /*Design é o msm do apresentado na provass*/
+        /*Design é o msm do apresentado na prova*/
         
         Peca peca1 = new Peca(bordaCheia, borda10, borda10, bordaCheia);
         Peca peca2 = new Peca(bordaCheia, borda10, borda10, borda01);
